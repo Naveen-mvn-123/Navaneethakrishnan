@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Profile</title>
+    <link rel="stylesheet" href="./profile.css">
+    <style>
+      /* CSS styles for the profile page */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #999;
+      }
+      h1 {
+        text-align: center;
+      }
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        max-width: 600px;
+      }
+      td,
+      th {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>User Profile</h1>
+      <table>
+        <tr>
+          <th>Name:</th>
+          <td id="name"></td>
+        </tr>
+        <tr>
+          <th>Email:</th>
+          <td id="email"></td>
+        </tr>
+        <tr>
+          <th>Age:</th>
+          <td id="age"></td>
+        </tr>
+        <tr>
+          <th>Date of Birth:</th>
+          <td id="dob"></td>
+        </tr>
+        <tr>
+          <th>Contact:</th>
+          <td id="contact"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="profile.js"></script>
+  </body>
+</html>

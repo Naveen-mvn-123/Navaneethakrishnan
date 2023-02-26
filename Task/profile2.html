@@ -1,0 +1,23 @@
+<div class="update-profile">
+    <h2>Update Profile</h2>
+    <form id="update-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required value="<?php echo $user->name; ?>">
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required value="<?php echo $user->age; ?>">
+      </div>
+      <div class="form-group">
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required value="<?php echo $user->dob; ?>">
+      </div>
+      <div class="form-group">
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" name="contact" required value="<?php echo $user->contact; ?>">
+      </div>
+      <button type="submit" class="btn btn-primary">Update Profile</button>
+    </form>
+  </div>
+  
